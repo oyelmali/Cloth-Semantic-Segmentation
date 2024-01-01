@@ -23,6 +23,11 @@
 
 ## İşleyiş
 
+* U2Net mimarisinin işleyişi aşağıda verilmiştir
+
+![figure-U2NET](results/U2NETPR.png)
+
+
 * generate_mask() fonksiyonu, U2Net mimarisi ile eğitilmiş pre-trained model kullanılarak resim girdisini çoklu resim çıktısı olarak sonuç verir
     * Maske: yarı-eğitilmiş modelin çıktısı dönüştürülmüş halidir
     * Segmentaston: Maskenin renklendirilmiş halidir, farklı sınıflar farklı renklerle ifade edilir
