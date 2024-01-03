@@ -12,6 +12,10 @@
       matplotlib==3.7.4
 
 
+* Projenin çalıştırıldığı dizinde model klasörü içerisine aşağıdaki Hugging Face bağlantısındaki pre-trained model eklenmelidir. Kaggle da oluşturulmuş iMaterialist adında bir veri seti ile U2Net mimarisi kullanılarak eğitilmiştir
+
+https://huggingface.co/oyelmali/Clothes-Semantic-Segmentation/blob/main/cloth_segm.pth
+
 * process.py içerisinde dosya yollarını kontrol ederek veya komut satırından gerekli argümanları vererek çalıştırılmalıdır
 
           $ python process.py --image 'input/6.jpg' --cuda 'False' --checkpoint_path 'model/cloth_segm.pth'
